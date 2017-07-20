@@ -3,7 +3,12 @@
   "version": "0.0.0",
   "description": "FunWithNode",
   "main": "app.js",
-  "author": {
-    "name": "andersond"
-  }
+  "author": "andersond",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "license": "ISC"
 }
