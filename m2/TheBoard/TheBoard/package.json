@@ -3,7 +3,16 @@
   "version": "0.0.0",
   "description": "TheBoard",
   "main": "server.js",
-  "author": {
-    "name": "andersond"
+  "author": "andersond",
+  "scripts": {
+    "test": "jasmine",
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  },
+  "dependencies": {
+    "request": "^2.81.0"
   }
 }
