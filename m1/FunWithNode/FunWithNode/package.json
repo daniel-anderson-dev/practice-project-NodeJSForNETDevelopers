@@ -10,5 +10,8 @@
   "scripts": {
     "test": "jasmine"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
 }
