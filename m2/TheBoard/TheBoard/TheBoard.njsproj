@@ -37,10 +37,16 @@
     <Content Include="views\ejs\layout.ejs">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="views\index.vash">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="views\jade\index.jade">
       <SubType>Code</SubType>
     </Content>
     <Content Include="views\jade\layout.jade">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="views\layout.vash">
       <SubType>Code</SubType>
     </Content>
   </ItemGroup>

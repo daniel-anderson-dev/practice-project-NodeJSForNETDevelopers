@@ -3,17 +3,17 @@
 var http = require('http');
 var express = require('express');
 var app = express();
-var ejsLocals = require('ejs-locals');
+//var ejsLocals = require('ejs-locals');
 
 // Setup the view engine.
 //app.set('view engine', 'jade');
-app.engine('ejs', ejsLocals);
-app.set('view engine', 'ejs');
-
+//app.engine('ejs', ejsLocals);
+//app.set('view engine', 'ejs');
+app.set('view engine', 'vash');
 
 app.get('/', function (request, response) {
     //response.send('this is working');
-    response.render('ejs/index', { title: 'Express + EJS' });
+    response.render('index', { title: 'Express + Vash' });
 });
 
 app.get('/api/users', function (request, response) {
