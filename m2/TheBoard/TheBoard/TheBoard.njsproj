@@ -32,8 +32,17 @@
     <Compile Include="controllers\index.js" />
     <Compile Include="data\index.js" />
     <Compile Include="data\seedData.js" />
+    <Compile Include="public\lib\underscore\underscore-min.js" />
+    <Compile Include="public\lib\underscore\underscore.js" />
     <Compile Include="server.js" />
+    <Content Include=".bowerrc" />
     <Content Include="package.json" />
+    <Content Include="public\css\site.css" />
+    <Content Include="public\lib\underscore\.bower.json" />
+    <Content Include="public\lib\underscore\bower.json" />
+    <Content Include="public\lib\underscore\LICENSE" />
+    <Content Include="public\lib\underscore\README.md" />
+    <Content Include="public\lib\underscore\underscore-min.map" />
     <Content Include="README.md" />
     <Content Include="views\ejs\index.ejs">
       <SubType>Code</SubType>
@@ -57,6 +66,10 @@
   <ItemGroup>
     <Folder Include="controllers\" />
     <Folder Include="data\" />
+    <Folder Include="public\" />
+    <Folder Include="public\css\" />
+    <Folder Include="public\lib\" />
+    <Folder Include="public\lib\underscore\" />
     <Folder Include="views\" />
     <Folder Include="views\jade\" />
     <Folder Include="views\ejs\" />
