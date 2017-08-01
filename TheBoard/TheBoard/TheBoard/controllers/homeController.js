@@ -5,7 +5,7 @@
     homeController.init = function (app) {
         app.get('/', function (request, response) {
             data.getNoteCategories(function (error, results) {
-                response.render('index', { title: 'Express + Vash', error: error, categories: results });
+                response.render('index', { title: 'The Board', error: error, categories: results });
             });
         });
     };
